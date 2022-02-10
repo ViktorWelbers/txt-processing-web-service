@@ -11,6 +11,8 @@ def get_root() -> Path:
 
 def get_file_folder() -> Path:
     """Get Path of Folder for textfiles """
+    if not Path(get_root(), get_settings().upload_folder).exists():
+        Path(get_root(), get_settings().upload_folder).mkdir()
     return Path(get_root(), get_settings().upload_folder)
 
 def gen_file(uuid: UUID, file: File) -> Path:
