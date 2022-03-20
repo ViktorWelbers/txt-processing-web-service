@@ -6,7 +6,7 @@ The API can be used to upload text documents and retrieve information from them 
 
 To run it, please execute following lines in the terminal at root level:
 
-> docker-compose up
+`docker-compose up`
 
 the API can be accessed at:
 
