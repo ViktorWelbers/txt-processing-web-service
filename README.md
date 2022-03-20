@@ -4,7 +4,7 @@ A simple Webservice Backend Application implemented in FastAPI
 
 The API can be used to upload text documents and retrieve information from them in a simplistic way
 
-To run it, please execute following lines in the terminal at root level:
+To run it, please execute following lines in the terminal at root folder level:
 
 `docker-compose up`
 
